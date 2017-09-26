@@ -8,6 +8,13 @@
 body {
   margin: 0;
 }
+.code {
+  background-color: BLACK;
+}
+
+.divClear {
+  clear: left;
+}
 
 .header {
   background-color: SILVER;
@@ -15,21 +22,46 @@ body {
   text-align: center;
 }
 
-.code {
-  background-color: BLACK;
+.intro {
+  background-color: #A52A2A;
+  color: WHITE;
+  padding: 10px;
+  text-align: center;
+}
+
+.resume {
+  background-color: 
+}
+
+introText {
+  color: WHITE;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
 }
 
 code {
   color: WHITE;
   white-space: pre;
 }
+
 </style>
 </head>
 <body>
   
 <div class="header">
-  <h1>Jeremy Keller</h1>
+  <h1>Jeremy Keller<br>Computer Scientist</h1>
 </div>
+
+<div class="intro">
+  <p><img src="https://raw.githubusercontent.com/jeremykeller001/jeremykeller001.github.io/master/headshot.jpg" alt="Jeremy" style="float: right; width:150px; height: 150px;"><br><br><br></p>
+  <h3><introText>Hi, I’m Jeremy.<br>I am a hardworking and diligent computer science student<br> working to use my knowledge and skills to create a better future.</introText></h3>
+  <p><br><br><br><br></p>
+</div>
+
+<div class="divClear"></div>
 
 <div class="code">
 <code>
@@ -62,4 +94,3 @@ code {
 
 </body>
 </html>
-
